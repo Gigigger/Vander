@@ -652,7 +652,6 @@
 	icon_state = "warhammer"
 	wlength = WLENGTH_GREAT
 	swingsound = BLUNTWOOSH_HUGE
-	sellprice = 100
 
 /obj/item/weapon/mace/goden/steel/warhammer/getonmobprop(tag)
 	. = ..()
