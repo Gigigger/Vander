@@ -348,7 +348,6 @@
 	icon_state = "falchion"
 	swingsound = BLADEWOOSH_HUGE
 	wbalance = EASY_TO_DODGE
-	sellprice = 100
 
 /obj/item/weapon/sword/scimitar/ngombe
 	name = "ngombe ngulu"
