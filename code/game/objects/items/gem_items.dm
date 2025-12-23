@@ -23,6 +23,7 @@
 	icon_state = "oyster_open"
 	grid_height = 96
 	grid_width = 64
+	sellprice = 10
 
 /obj/item/carvedgem/shell/rawshell
 	name = "clamshell"
