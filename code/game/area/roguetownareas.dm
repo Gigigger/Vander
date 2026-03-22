@@ -446,8 +446,91 @@
 	background_track = 'sound/music/area/churchnight.ogg'
 
 /area/delver
+	name = "delver"
+	icon = 'icons/turf/areas/delver.dmi'
+	icon_state = "delver"
 	delver_restrictions = TRUE
 	converted_type = /area/delver
+
+/area/delver/guild
+	name = "guildhall"
+	icon_state = "delverguild"
+	droning_index = DRONING_INDOORS
+	ambient_index = AMBIENCE_GENERIC
+	background_track = 'sound/music/area/indoor.ogg'
+	background_track_dusk = 'sound/music/area/septimus.ogg'
+	background_track_night = 'sound/music/area/sleeping.ogg'
+	plane = INDOOR_PLANE
+	first_time_text = "Guildhall"
+	custom_area_sound = 'sound/misc/stings/generic.ogg'
+
+/area/delver/inn
+	name = "delverinn"
+	icon_state = "delverinn"
+	droning_index = DRONING_INDOORS
+	ambient_index = AMBIENCE_GENERIC
+	background_track = 'sound/music/area/Folia1490.ogg'
+	first_time_text = "The Drunken Mole"
+	custom_area_sound = 'sound/misc/stings/generic.ogg'
+
+/area/delver/town
+	name = "delvertown"
+	icon_state = "delvertown"
+	outdoors = TRUE
+	droning_index = DRONING_TOWN_DAY
+	droning_index_night = DRONING_TOWN_NIGHT
+	ambient_index = AMBIENCE_BIRDS
+	ambient_index_night = AMBIENCE_GENERIC
+	background_track = 'sound/music/area/townstreets.ogg'
+	background_track_dusk = 'sound/music/area/septimus.ogg'
+	background_track_night = 'sound/music/area/sleeping.ogg'
+	first_time_text = "Town"
+	custom_area_sound = 'sound/misc/stings/generic.ogg'
+
+/area/delver/marsh
+	name = "delvermarsh"
+	icon_state = "delvermarsh"
+	outdoors = TRUE
+	droning_index = DRONING_BOG_DAY
+	droning_index_night = DRONING_BOG_NIGHT
+	ambient_index = AMBIENCE_FROG
+	ambient_index_night = AMBIENCE_GENERIC
+	background_track = 'sound/music/area/bog.ogg'
+	first_time_text = "The Marsh"
+	custom_area_sound = 'sound/misc/stings/BogSting.ogg'
+
+/area/delver/plains
+	name = "delverplains"
+	icon_state = "delverplains"
+	outdoors = TRUE
+	droning_index = DRONING_DESERT_DAY
+	droning_index_night = DRONING_DESERT_NIGHT
+	background_track = 'sound/music/area/field.ogg'
+	background_track_dusk = 'sound/music/area/septimus.ogg'
+	background_track_night = 'sound/music/area/sleeping.ogg'
+	first_time_text = "The Plains"
+	custom_area_sound = 'sound/misc/stings/generic.ogg'
+
+/area/delver/woods
+	name = "delverwoods"
+	icon_state = "delverwoods"
+	outdoors = TRUE
+	background_track = 'sound/music/area/forest.ogg'
+	background_track_dusk = 'sound/music/area/septimus.ogg'
+	background_track_night = 'sound/music/area/forestnight.ogg'
+	droning_index = DRONING_FOREST_DAY
+	droning_index_night = DRONING_FOREST_NIGHT
+	ambient_index = AMBIENCE_BIRDS
+	ambient_index_night = AMBIENCE_FOREST
+	first_time_text = "The Wood"
+	custom_area_sound = 'sound/misc/stings/ForestSting.ogg'
+
+/area/delver/mountains
+	name = "delvermountains"
+	icon_state = "delvermountains"
+	outdoors = TRUE
+	droning_index = DRONING_MOUNTAIN
+	ambient_index = AMBIENCE_GENERIC
 
 /area/ship/topdeck
 	name = "upperdeck"
